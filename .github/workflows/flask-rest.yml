@@ -23,7 +23,7 @@ jobs:
         cache: 'pip'
 
     - name: Build
-      run: pip install -r requirement.txt
+      run: pip install -r requirements.txt
 
     - name: Tests
       run: |
