@@ -1,4 +1,4 @@
-name: Master branch AWS CDK build, synth, test 
+name: AWS CDK build, synth, test 
 
 on:
   workflow_dispatch:
