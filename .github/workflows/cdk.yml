@@ -2,7 +2,7 @@ name: AWS CDK build, synth, test
 
 on:
   workflow_dispatch:
-  push:
+#  push:
 
 
 jobs:
