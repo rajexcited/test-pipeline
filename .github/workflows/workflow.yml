@@ -2,13 +2,13 @@ name: AWS CDK build, synth, test
 
 on:
   workflow_dispatch:
-#  push:
+  push:
 # on: workflow_dispatch
 
 
 jobs:
   build:
-    # if: github.ref == 'refs/heads/aws-cdk'
+    if: github.ref == 'refs/heads/aws-cdk'
     runs-on: ubuntu-latest
 
     strategy:
